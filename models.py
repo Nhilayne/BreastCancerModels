@@ -25,7 +25,7 @@ from sklearn.exceptions import DataConversionWarning
 warnings.filterwarnings(action='ignore', category=DataConversionWarning)
 
 
-PATH = "/Users/Iangs/Desktop/CST Term 4 Fall 2021/Comp 4948 Predictive Machine Learning/datasets/"
+PATH = "/datasets/"
 CSV = "haberman.csv"
 dataset = pd.read_csv(PATH + CSV, index_col=None)
 
