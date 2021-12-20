@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.preprocessing import Binarizer
 
 
-PATH = "/Users/Iangs/Desktop/CST Term 4 Fall 2021/Comp 4948 Predictive Machine Learning/datasets/"
+PATH = "/datasets/"
 CSV = "haberman.csv"
 dataset = pd.read_csv(PATH + CSV, index_col=None)
 
